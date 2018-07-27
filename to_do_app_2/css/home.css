@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+#home {
+  background: url('https://i.imgur.com/zlb4GG3.jpg') center center;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-box {
+  text-align: center;
+  padding: 40px 15px;
+  background: rgba(0, 0, 0, .6)
+}
+
+h1 {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 28px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.welcome-box .enterButton {
+  padding: 8px 214px;
+  color: white;
+  background: #3BB9FF;
+  border: none;
+  font-size: 15px;
+}
+
+.welcome-box .enterButton:hover{
+  cursor: pointer;
+}
